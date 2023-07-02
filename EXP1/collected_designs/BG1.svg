@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="600">
+   <defs>
+      <pattern id="linePattern0" patternUnits="userSpaceOnUse" width="14.3" height="14.3" patternTransform="translate(0.5,-1.7) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="4.5" stroke="black" transform="translate(0,7.15)"></path>
+      </pattern>
+      <pattern id="linePattern1" patternUnits="userSpaceOnUse" width="15.2" height="15.2" patternTransform="translate(0,0) rotate(0)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="9" stroke="black" transform="translate(0,7.6)"></path>
+      </pattern>
+      <pattern id="linePattern2" patternUnits="userSpaceOnUse" width="4.9" height="4.9" patternTransform="translate(0,0) rotate(135)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="1" stroke="black" transform="translate(0,2.45)"></path>
+      </pattern>
+      <pattern id="linePattern3" patternUnits="userSpaceOnUse" width="9.7" height="9.7" patternTransform="translate(0,0) rotate(0)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="2" stroke="black" transform="translate(0,4.85)"></path>
+      </pattern>
+      <pattern id="linePattern4" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="translate(0,0) rotate(0)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="1" stroke="black" transform="translate(0,1.5)"></path>
+      </pattern>
+      <pattern id="linePattern5" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="translate(0,0) rotate(90)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="1" stroke="black" transform="translate(0,1.5)"></path>
+      </pattern>
+      <pattern id="linePattern6" patternUnits="userSpaceOnUse" width="2" height="2" patternTransform="translate(0,0) rotate(0)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="2" stroke="black" transform="translate(0,1)"></path>
+      </pattern>
+      <pattern id="dotPattern0" patternUnits="userSpaceOnUse" width="15" height="15" patternTransform="translate(0,0) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle cx="7.5" cy="7.5" r="1" stroke-width="1" fill-opacity="1" stroke-opacity="0" fill="black" stroke="black"></circle>
+      </pattern>
+      <pattern id="dotPattern1" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="translate(0,0) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle cx="3.5" cy="3.5" r="1" stroke-width="1" fill-opacity="1" stroke-opacity="0" fill="black" stroke="black"></circle>
+      </pattern>
+      <pattern id="dotPattern2" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="translate(0,0) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle cx="2.5" cy="2.5" r="1" stroke-width="1" fill-opacity="1" stroke-opacity="0" fill="black" stroke="black"></circle>
+      </pattern>
+      <pattern id="dotPattern3" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="translate(0,0) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle cx="5" cy="5" r="2" stroke-width="1" fill-opacity="1" stroke-opacity="0" fill="black" stroke="black"></circle>
+      </pattern>
+      <pattern id="dotPattern4" patternUnits="userSpaceOnUse" width="7" height="7" patternTransform="translate(0,0) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle cx="3.5" cy="3.5" r="1" stroke-width="1" fill-opacity="1" stroke-opacity="0" fill="black" stroke="black"></circle>
+      </pattern>
+      <pattern id="dotPattern5" patternUnits="userSpaceOnUse" width="7.4" height="7.4" patternTransform="translate(0,0) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle cx="3.7" cy="3.7" r="2.1" stroke-width="1" fill-opacity="1" stroke-opacity="0" fill="black" stroke="black"></circle>
+      </pattern>
+      <pattern id="dotPattern6" patternUnits="userSpaceOnUse" width="19.7" height="19.7" patternTransform="translate(0,0) rotate(45)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle cx="9.85" cy="9.85" r="9.2" stroke-width="1" fill-opacity="1" stroke-opacity="0" fill="black" stroke="black"></circle>
+      </pattern>
+      <pattern id="gridPatternA0" patternUnits="userSpaceOnUse" width="9.7" height="9.7" patternTransform="translate(0,0) rotate(180)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA1" patternUnits="userSpaceOnUse" width="24" height="24" patternTransform="translate(0,0) rotate(135)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="1" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA2" patternUnits="userSpaceOnUse" width="9.7" height="9.7" patternTransform="translate(0,0) rotate(180)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA3" patternUnits="userSpaceOnUse" width="13.5" height="13.5" patternTransform="translate(0,0) rotate(115)"><rect id="gridPattern3Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="black"/><path id="gridPatternA3Line0" d="m -100 0 l 200 0" stroke-width="2.9" stroke="white" transform="translate(0,6.75)"/></pattern>
+      <pattern id="gridPatternA4" patternUnits="userSpaceOnUse" width="11.9" height="11.9" patternTransform="translate(0,0) rotate(150)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="0.7" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA5" patternUnits="userSpaceOnUse" width="9.7" height="9.7" patternTransform="translate(0,0) rotate(180)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA6" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="translate(0,0) rotate(180)">
+         <rect x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern0" patternUnits="userSpaceOnUse" width="9.7" height="9.7" patternTransform="translate(0,0) rotate(90)">
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern1" patternUnits="userSpaceOnUse" width="24" height="24" patternTransform="translate(0,0) rotate(45)">
+         <path d="m -100 0 l 200 0" stroke-width="1" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern2" patternUnits="userSpaceOnUse" width="9.7" height="9.7" patternTransform="translate(0,0) rotate(90)">
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern3" patternUnits="userSpaceOnUse" width="13.5" height="13.5" patternTransform="translate(0,0) rotate(65)"><path id="gridPattern3Line0" d="m -100 0 l 200 0" stroke-width="2.9" stroke="white" transform="translate(0,6.75)"/></pattern>
+      <pattern id="gridPattern4" patternUnits="userSpaceOnUse" width="11.9" height="11.9" patternTransform="translate(0,0) rotate(30)">
+         <path d="m -100 0 l 200 0" stroke-width="0.7" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern5" patternUnits="userSpaceOnUse" width="9.7" height="9.7" patternTransform="translate(0,0) rotate(90)">
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern6" patternUnits="userSpaceOnUse" width="5" height="5" patternTransform="translate(0,0) rotate(90)">
+         <path d="m -100 0 l 200 0" stroke-width="3" stroke="black"></path>
+      </pattern>
+   </defs>
+   <g transform="translate(26,5)">
+      <g transform="translate(0,300)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" style="font-size: 12px;">
+         <path class="domain" stroke="currentColor" d="M0,6V0H400V6"></path>
+         <g class="tick" opacity="1" transform="translate(33.33333333333334,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">carrot</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(88.8888888888889,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">celery</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(144.44444444444446,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">corn</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(200.00000000000003,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">eggplant</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(255.55555555555557,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">mushroom</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(311.11111111111114,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">olive</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(366.6666666666667,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">tomato</text>
+         </g>
+      </g>
+      <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+         <path class="domain" stroke="currentColor" d="M-6,300H0V0H-6"></path>
+         <g class="tick" opacity="1" transform="translate(0,300)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">0</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,270)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">10</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,240)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">20</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,210)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">30</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,180)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">40</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,150)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">50</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,120)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">60</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,90.00000000000001)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">70</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,59.999999999999986)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">80</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,29.999999999999993)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">90</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,0)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">100</text>
+         </g>
+      </g>
+      <rect x="11.111111111111114" y="234" width="44.44444444444445" height="66" fill="url(#gridPatternA0)"></rect>
+      <rect x="66.66666666666667" y="150" width="44.44444444444445" height="150" fill="url(#gridPatternA1)"></rect>
+      <rect x="122.22222222222223" y="240" width="44.44444444444445" height="60" fill="url(#gridPatternA2)"></rect>
+      <rect x="177.7777777777778" y="93.00000000000001" width="44.44444444444445" height="207" fill="url(#gridPatternA3)"></rect>
+      <rect x="233.33333333333334" y="23.99999999999999" width="44.44444444444445" height="276" fill="url(#gridPatternA4)"></rect>
+      <rect x="288.8888888888889" y="174.00000000000003" width="44.44444444444445" height="125.99999999999997" fill="url(#gridPatternA5)"></rect>
+      <rect x="344.44444444444446" y="98.99999999999999" width="44.44444444444445" height="201" fill="url(#gridPatternA6)"></rect>
+   </g>
+   <g transform="translate(26,5)">
+      <g transform="translate(0,300)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" style="font-size: 12px;">
+         <path class="domain" stroke="currentColor" d="M0,6V0H400V6"></path>
+         <g class="tick" opacity="1" transform="translate(33.33333333333334,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">carrot</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(88.8888888888889,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">celery</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(144.44444444444446,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">corn</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(200.00000000000003,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">eggplant</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(255.55555555555557,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">mushroom</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(311.11111111111114,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">olive</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(366.6666666666667,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">tomato</text>
+         </g>
+      </g>
+      <g fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+         <path class="domain" stroke="currentColor" d="M-6,300H0V0H-6"></path>
+         <g class="tick" opacity="1" transform="translate(0,300)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">0</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,270)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">10</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,240)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">20</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,210)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">30</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,180)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">40</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,150)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">50</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,120)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">60</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,90.00000000000001)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">70</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,59.999999999999986)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">80</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,29.999999999999993)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">90</text>
+         </g>
+         <g class="tick" opacity="1" transform="translate(0,0)">
+            <line stroke="currentColor" x2="-6"></line>
+            <text fill="currentColor" x="-9" dy="0.32em">100</text>
+         </g>
+      </g>
+      <rect x="11.111111111111114" y="234" width="44.44444444444445" height="66" fill="url(#linePattern0)" stroke="black" stroke-width="0.4"></rect>
+      <rect x="66.66666666666667" y="150" width="44.44444444444445" height="150" fill="url(#linePattern1)" stroke="black" stroke-width="0.4"></rect>
+      <rect x="122.22222222222223" y="240" width="44.44444444444445" height="60" fill="url(#linePattern2)" stroke="black" stroke-width="0.4"></rect>
+      <rect x="177.7777777777778" y="93.00000000000001" width="44.44444444444445" height="207" fill="url(#gridPattern3)" stroke="black" stroke-width="0.4"></rect>
+      <rect x="233.33333333333334" y="23.99999999999999" width="44.44444444444445" height="276" fill="url(#gridPattern4)" stroke="black" stroke-width="0.4"></rect>
+      <rect x="288.8888888888889" y="174.00000000000003" width="44.44444444444445" height="125.99999999999997" fill="url(#dotPattern5)" stroke="black" stroke-width="0.4"></rect>
+      <rect x="344.44444444444446" y="98.99999999999999" width="44.44444444444445" height="201" fill="url(#dotPattern6)" stroke="black" stroke-width="0.4"></rect>
+   </g>
+</svg>
