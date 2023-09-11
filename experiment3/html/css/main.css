@@ -1,0 +1,378 @@
+.progress-bar-container {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 10px;
+    margin: 10px;
+}
+
+.my-progress-bar {
+    background: #ccc;
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.5s ease;
+}
+
+#content{
+    margin-top: 20px;
+}
+.text-content{
+    width: 680px;
+}
+
+.likert-row{
+    height: 30px;
+}
+
+.likert-row:nth-child(even) {
+    background-color: #ffffff /* set the background color for even rows */
+}
+
+.likert-row:nth-child(odd) {
+    background-color: #f2f2f2; /* set the background color for odd rows */
+}
+
+.target-text {
+    background: none;
+    border: none;
+    color: black;
+    cursor: default;
+}
+
+.target-button{
+    color: #000;
+    background-color: rgba(31, 120, 180, 0.2);
+    border: 0px solid transparent;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.target-button:hover{
+    background-color: rgba(31, 120, 180, 0.3);
+}
+
+.question{
+    font-size: 32px;
+}
+
+.target{
+    font-size: 32px;
+}
+
+.explanation{
+    color: rgb(31, 120, 180);
+}
+
+
+/**
+Following are default css from this FROE template
+ */
+
+#experiment {
+  /****************************************************
+   Important!!
+   Width and height here need to correspond to the values set in html/setup/constants.js 
+   ****************************************************/
+  width: 900px;
+  height: 700px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: auto;
+}
+
+#loader {
+  display: flex;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: url('../img/loading.gif') 50% 50% no-repeat #E0E0E0;
+}
+
+noscript {
+  /* z-index: 8000; */
+  position: fixed;
+  left: 25%;
+  top: 25%;
+  width: 50%;
+  background-color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+#no-cookie-container, #reloader-container, #missing-parameter-container {
+  /* z-index: 8000; */
+  position: fixed;
+  left: 12.5%;
+  top: 15%;
+  width: 75%;
+  background-color: white;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+#loader p {
+  font-family: sans-serif;
+  font-size: 22px;
+  margin: 24%;
+  text-align: center;
+}
+
+.wrong-message {
+	padding: 10px;
+}
+
+.wrong-message h1 {
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.wrong-message p {
+	font-size: 18px;
+	text-align: center;
+}
+
+#zoom-message #zoom {
+	font-size: 22px;
+	text-align: center;
+  padding: 10px;
+}
+
+#dimension-message #windowsize {
+	display: block;
+    margin: 0 auto;
+}
+
+.legend {
+	margin-top: 20px;
+	background-color: white;
+}
+
+
+
+h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.slider_title {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.slider_title p {
+  margin-bottom: 8px;
+}
+
+.slider_description p {
+  margin-bottom: 0px;
+}
+
+.slider_instruction {
+  position: absolute;
+	font-size: 12px;
+	text-align: center;
+  color: #555555;
+  background: #cce5ff;
+  border-radius: .25rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 200px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.justification {
+	width: 100%;
+	height: 50px;
+}
+
+.btn_attention {
+	margin: 15px 15px;
+	width: 150px;
+}
+
+.btn-outline-dark:hover {
+  color: black!important;
+	background-color: white!important;
+  outline-color: black!important;
+}
+
+.btn-dark:hover {
+  color: white!important;
+	background-color: black!important;
+  outline-color: black!important;
+}
+
+.btn-wider {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.buttonGroup {
+	text-align: center;
+}
+
+#completion_code {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.consent {
+  font-size: 13px;
+}
+
+#scroll-warning {
+  font-size: 13px;
+}
+
+.cause-a {
+  color:#00008B;
+  font-weight: bold;
+}
+
+.cause-b {
+  color:#7f3000;
+  font-weight: bold;
+}
+
+th {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.likert{
+    padding:0 6px;
+    text-align: center;
+}
+
+#graph_box {
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type="radio"] {
+    margin-right: 7px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.legend{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+#graph {
+    width: 450px;
+    display: block;
+    margin:auto;
+}
+
+.demographics {
+    display: block;
+    width: 300px;
+    padding-right: 50px;
+}
+
+#people {
+    /*width: 250px;*/
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+.cml_row {
+    padding-bottom: 3px;
+}
+.task-description{
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.submit input{
+    float:right;
+    background-color: #EEEEEE;/*#4CAF50; /* Green */
+    /*border: none;*/
+    /*color: black;*/
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+}
+
+/* .submit {
+    display: none;
+} */
+
+#helper-text {
+    padding-left: 15px;
+    font-size: 14px;
+    color: grey;
+}
+
+button {
+    float:right;
+    background-color: #EEEEEE;/*#4CAF50; /* Green */
+    /*border: none;*/
+    /*color: black;*/
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+
+}
+
+textarea {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  -moz-appearance: none;
+  margin: 0;
+}
+
+#why_no {
+    width: 690px;
+}
+
+input[type=number] { 
+  width: 50px;
+  /* height: 25px; */
+  font-size: 17px;
+  text-align: right;
+  padding: 2px;
+  padding-right: 5px;
+  margin-right: 4px;
+}
+
+input[type=text] {
+    font-size: 15px;
+}

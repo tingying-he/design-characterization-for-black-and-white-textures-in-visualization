@@ -1,0 +1,43 @@
+{
+  "use_fixed_frame" : false,
+  "frame_size" : {
+    "width" : 900,
+    "height" : 700
+  },
+  "canvas_width" : 750,
+  "use_between_design" : true,
+  "num_conditions" : 2,
+  "factors" : [
+    {
+      "name" : "condition",
+      "levels" : [
+        "bar",
+        "pie"
+      ]
+    }
+  ],
+  "exclude_reloaders" : true,
+  "attention_question_answers" : {
+    "malaria" : "People getting malaria",
+    "tuberculosis" : "People getting tuberculosis",
+    "cold" : "People getting the common cold",
+    "HIV" : "People getting infected with HIV",
+    "flu" : "People getting exposed to flu viruses"
+  },
+  "Prolific" : {
+    "prolific_completion_url" : "https://app.prolific.co/submissions/complete?cc=CDR2RKQG",
+    "experiment_duration" : 10,
+    "payment" : 0.45
+  },
+  "attention_question_correct_answer" : {
+    "key" : "cold",
+    "value" : "People getting the common cold"
+  },
+  "page_id_triggering_final_log" : "feedback",
+  "stimulus_timing" : {
+    "initial_mask_time" : 500,
+    "stimulus_time" : 2000
+  },
+  "save_trial_log" : true,
+  "css_file_name" : "texture.css"
+}

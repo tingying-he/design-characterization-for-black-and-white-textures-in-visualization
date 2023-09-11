@@ -1,0 +1,313 @@
+{
+  "welcome" : {
+    "id" : "welcome",
+    "button_text" : "Next",
+    "page_path" : "pages/default/welcome.php",
+    "disabled" : false,
+    "start_page" : true,
+    "save_page" : false
+  },
+  "consent" : {
+    "id" : "consent",
+    "button_text" : "Yes, I agree",
+    "page_path" : "pages/default/consent.php",
+    "disabled" : false,
+    "start_page" : true,
+    "save_page" : false
+  },
+  "demographics" : {
+    "id" : "demographics",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/demographics.php",
+    "disabled" : true,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "description" : {
+    "id" : "description",
+    "button_text" : "I understand. Let's start.",
+    "page_path" : "pages/default/description_filter_example.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question0" : {
+    "id" : "training_question0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question0.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question1" : {
+    "id" : "training_question1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question1.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question0_texture0" : {
+    "id" : "training_question0_texture0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question0_texture0.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question0_texture1" : {
+    "id" : "training_question0_texture1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question0_texture1.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question0_texture2" : {
+    "id" : "training_question0_texture2",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question0_texture2.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question1_texture0" : {
+    "id" : "training_question1_texture0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question1_texture0.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question1_texture1" : {
+    "id" : "training_question1_texture1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question1_texture1.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_question1_texture2" : {
+    "id" : "training_question1_texture2",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/training_question1_texture2.php",
+    "repetitions" : 3,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "trainingEnd_question0_texture0" : {
+    "id" : "trainingEnd_question0_texture0",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/trainingEnd_question0_texture0.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "trainingEnd_question0_texture1" : {
+    "id" : "trainingEnd_question0_texture1",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/trainingEnd_question0_texture1.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "trainingEnd_question0_texture2" : {
+    "id" : "trainingEnd_question0_texture2",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/trainingEnd_question0_texture2.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "trainingEnd_question1_texture0" : {
+    "id" : "trainingEnd_question1_texture0",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/trainingEnd_question1_texture0.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "trainingEnd_question1_texture1" : {
+    "id" : "trainingEnd_question1_texture1",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/trainingEnd_question1_texture1.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "trainingEnd_question1_texture2" : {
+    "id" : "trainingEnd_question1_texture2",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/trainingEnd_question1_texture2.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_end0" : {
+    "id" : "training_end0",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/training_end0.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "training_end1" : {
+    "id" : "training_end1",
+    "button_text" : "Start Real Experiment",
+    "page_path" : "pages/custom/training_end1.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "description_question0" : {
+    "id" : "description_question0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/description_question0.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "description_question1" : {
+    "id" : "description_question1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/description_question1.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "learning_question0_texture0" : {
+    "id" : "learning_question0_texture0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/learning_question0_texture0.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "learning_question0_texture1" : {
+    "id" : "learning_question0_texture1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/learning_question0_texture1.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "learning_question0_texture2" : {
+    "id" : "learning_question0_texture2",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/learning_question0_texture2.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "learning_question1_texture0" : {
+    "id" : "learning_question1_texture0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/learning_question1_texture0.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "learning_question1_texture1" : {
+    "id" : "learning_question1_texture1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/learning_question1_texture1.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "learning_question1_texture2" : {
+    "id" : "learning_question1_texture2",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/learning_question1_texture2.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "stimulus_question0_texture0" : {
+    "id" : "stimulus_question0_texture0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/stimulus_question0_texture0.php",
+    "repetitions" : 10,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "stimulus_question0_texture1" : {
+    "id" : "stimulus_question0_texture1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/stimulus_question0_texture1.php",
+    "repetitions" :10,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "stimulus_question0_texture2" : {
+    "id" : "stimulus_question0_texture2",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/stimulus_question0_texture2.php",
+    "repetitions" : 10,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "stimulus_question1_texture0" : {
+    "id" : "stimulus_question1_texture0",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/stimulus_question1_texture0.php",
+    "repetitions" : 10,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "stimulus_question1_texture1" : {
+    "id" : "stimulus_question1_texture1",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/stimulus_question1_texture1.php",
+    "repetitions" : 10,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "stimulus_question1_texture2" : {
+    "id" : "stimulus_question1_texture2",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/stimulus_question1_texture2.php",
+    "repetitions" : 10,
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "description_readability" : {
+    "id" : "description_readability",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/description_readability.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "readability" : {
+    "id" : "readability",
+    "button_text" : "Next",
+    "page_path" : "pages/custom/readability.php",
+    "repetitions" : 3,
+    "disabled" : true,
+    "start_page" : false,
+    "save_page" : false
+  },
+  "end" : {
+    "id" : "end",
+    "button_text" : " ",
+    "page_path" : "pages/default/end.php",
+    "disabled" : false,
+    "start_page" : false,
+    "save_page" : true
+  }
+}

@@ -1,0 +1,112 @@
+<svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px">
+<defs>
+      <pattern id="linePattern0" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="linePattern0Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="linePattern0Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="linePattern1" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="linePattern1Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="linePattern1Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="linePattern2" patternUnits="userSpaceOnUse" width="4" height="4" patternTransform="translate(0,0) rotate(90)">
+         <rect id="linePattern2Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="linePattern2Line0" d="m -100 0 l 200 0" stroke-width="0.9" stroke="black" transform="translate(0,2)"></path>
+      </pattern>
+      <pattern id="linePattern3" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="linePattern3Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="linePattern3Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="linePattern4" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="linePattern4Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="linePattern4Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="linePattern5" patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="translate(0,0) rotate(43.7)">
+         <rect id="linePattern5Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="linePattern5Line0" d="m -100 0 l 200 0" stroke-width="0.4" stroke="black" transform="translate(0,1.5)"></path>
+      </pattern>
+      <pattern id="linePattern6" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="linePattern6Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="linePattern6Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="dotPattern0" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="dotPattern0Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle id="dotPattern0Circle0" cx="20px" cy="20px" r="5px"></circle>
+      </pattern>
+      <pattern id="dotPattern1" patternUnits="userSpaceOnUse" width="16.7" height="16.7" patternTransform="translate(4.8,0) rotate(69.2)">
+         <rect id="dotPattern1Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="black"></rect>
+         <circle id="dotPattern1Circle0" cx="8.35" cy="8.35" r="0.9" stroke-width="0.8" fill="white" stroke="white" fill-opacity="1" stroke-opacity="0"></circle>
+      </pattern>
+      <pattern id="dotPattern2" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="dotPattern2Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle id="dotPattern2Circle0" cx="20px" cy="20px" r="5px"></circle>
+      </pattern>
+      <pattern id="dotPattern3" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="dotPattern3Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle id="dotPattern3Circle0" cx="20px" cy="20px" r="5px"></circle>
+      </pattern>
+      <pattern id="dotPattern4" patternUnits="userSpaceOnUse" width="12" height="12" patternTransform="translate(4.8,0) rotate(45)">
+         <rect id="dotPattern4Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle id="dotPattern4Circle0" cx="6" cy="6" r="2" stroke-width="1.8" fill="black" stroke="black" fill-opacity="0" stroke-opacity="1"></circle>
+      </pattern>
+      <pattern id="dotPattern5" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="dotPattern5Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle id="dotPattern5Circle0" cx="20px" cy="20px" r="5px"></circle>
+      </pattern>
+      <pattern id="dotPattern6" patternUnits="userSpaceOnUse" width="28.4" height="28.4" patternTransform="translate(4.8,0) rotate(59.1)">
+         <rect id="dotPattern6Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <circle id="dotPattern6Circle0" cx="14.2" cy="14.2" r="2.9" stroke-width="3.9" fill="black" stroke="black" fill-opacity="0" stroke-opacity="1"></circle>
+      </pattern>
+      <pattern id="gridPatternA0" patternUnits="userSpaceOnUse" width="21.4" height="21.4" patternTransform="translate(0,0) rotate(180)">
+         <rect id="gridPattern0Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="gridPatternA0Line0" d="m -100 0 l 200 0" stroke-width="1.1" stroke="black" transform="translate(0,10.7)"></path>
+      </pattern>
+      <pattern id="gridPatternA1" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="gridPattern1Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="gridPatternA1Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA2" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="gridPattern2Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="gridPatternA2Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA3" patternUnits="userSpaceOnUse" width="14.9" height="14.9" patternTransform="translate(42,0) rotate(180.9)">
+         <rect id="gridPattern3Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="black"></rect>
+         <path id="gridPatternA3Line0" d="m -100 0 l 200 0" stroke-width="1" stroke="white" transform="translate(0,7.45)"></path>
+      </pattern>
+      <pattern id="gridPatternA4" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="gridPattern4Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="gridPatternA4Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA5" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="gridPattern5Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="gridPatternA5Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPatternA6" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <rect id="gridPattern6Background" x="0" y="0" width="40" height="40" stroke-width="0" fill="white"></rect>
+         <path id="gridPatternA6Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern0" patternUnits="userSpaceOnUse" width="21.4" height="21.4" patternTransform="translate(0,0) rotate(90)">
+         <path id="gridPattern0Line0" d="m -100 0 l 200 0" stroke-width="1.1" stroke="black" transform="translate(0,10.7)"></path>
+      </pattern>
+      <pattern id="gridPattern1" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <path id="gridPattern1Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern2" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <path id="gridPattern2Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern3" patternUnits="userSpaceOnUse" width="14.9" height="14.9" patternTransform="translate(42,0) rotate(90.9)">
+         <path id="gridPattern3Line0" d="m -100 0 l 200 0" stroke-width="1" stroke="white" transform="translate(0,7.45)"></path>
+      </pattern>
+      <pattern id="gridPattern4" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <path id="gridPattern4Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern5" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <path id="gridPattern5Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+      <pattern id="gridPattern6" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="translate(0,0) rotate(0)">
+         <path id="gridPattern6Line0" d="m -100 0 l 200 0" stroke-width="1px" stroke="black"></path>
+      </pattern>
+   </defs>
+
+<rect x="0" y="0" width="50" height="50" fill="url(#gridPatternA4)" stroke="black" stroke-width="3"/>
+<rect x="0" y="0" width="50" height="50" fill="url(#dotPattern4)" stroke="black" stroke-width="3"/>
+</svg>

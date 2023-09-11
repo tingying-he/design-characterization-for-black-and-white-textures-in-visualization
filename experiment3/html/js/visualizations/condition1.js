@@ -1,0 +1,1 @@
+console.log("The javascript file for condition 1 was loaded.");

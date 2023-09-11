@@ -1,0 +1,2 @@
+participant_id,answer_accuracy,elapsed_time,trial_type,condition,current_stimulus_index,target_left,target_right,correct_answer,key_pressed,questions_order,question_index,question_condition,textures_order_for_question,texture_index,texture_condition,trial_number
+04d527be-66ae-49e3-9f54-d9ce318d6367,1,2450,training,bar,2,tomato,mushroom,tomato,ArrowLeft,"fewer, more",0,FEWER,"icon, geo, color",0,icon,0

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iconic Texture Map</title>
+
+    <script type="text/javascript" src="../lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/d3.v7.min.js"></script>
+
+    <link rel="stylesheet" href="../lib/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="texture_style.css">
+
+<!--    <script src="../tools/loading.js"></script>-->
+
+</head>
+<body>
+<div class="container">
+    <div class="row bg-light">
+        <div>
+            Select chart and texture type:
+        </div>
+
+        <div class="col">
+            <a href="bar_geo.html" class="btn" style="width: 150px;margin: 0px;" title="Geometric Bar">
+                <img src="img/navigation_buttons/geometric.png" alt="Geometric" height="20px">
+                <img src="img/navigation_buttons/plus.png" alt="+" height="15px">
+                <img src="img/navigation_buttons/bar.png" alt="Bar" height="20px"><br>
+                <span class="text-decoration-none">Geometric Bar</span>
+            </a>
+            <a href="bar_icon.html" class="btn" style="width: 150px;margin: 0px;" title="Iconic Bar">
+                <img src="img/navigation_buttons/iconic.png" alt="Iconic" height="20px">
+                <img src="img/navigation_buttons/plus.png" alt="+" height="15px">
+                <img src="img/navigation_buttons/bar.png" alt="Bar" height="20px"><br>
+                <span class="text-decoration-none">Iconic Bar</span>
+            </a>
+            <a href="pie_geo.html" class="btn" style="width: 150px;margin: 0px;" title="Geometric Pie">
+                <img src="img/navigation_buttons/geometric.png" alt="Geometric" height="20px">
+                <img src="img/navigation_buttons/plus.png" alt="+" height="15px">
+                <img src="img/navigation_buttons/pie.png" alt="Pie" height="20px"><br>
+                <span class="text-decoration-none">Geometric Pie</span>
+            </a>
+            <a href="pie_icon.html" class="btn" style="width: 150px;margin: 0px;" title="Iconic Pie">
+                <img src="img/navigation_buttons/iconic.png" alt="Iconic" height="20px">
+                <img src="img/navigation_buttons/plus.png" alt="+" height="15px">
+                <img src="img/navigation_buttons/pie.png" alt="Pie" height="20px"><br>
+                <span class="text-decoration-none">Iconic Pie</span>
+            </a>
+            <a href="map_geo.html" class="btn" style="width: 150px;margin: 0px;" title="Geometric Map">
+                <img src="img/navigation_buttons/geometric.png" alt="Geometric" height="20px">
+                <img src="img/navigation_buttons/plus.png" alt="+" height="15px">
+                <img src="img/navigation_buttons/map.png" alt="Map" height="20px"><br>
+                <span class="text-decoration-none">Geometric Map</span>
+            </a>
+            <a href="map_icon.html" class="btn" style="width: 150px;margin: 0px;" title="Iconic Map">
+                <img src="img/navigation_buttons/iconic.png" alt="Iconic" height="20px">
+                <img src="img/navigation_buttons/plus.png" alt="+" height="15px">
+                <img src="img/navigation_buttons/map.png" alt="Map" height="20px"><br>
+                <span class="text-decoration-underline">Iconic Map</span>
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div id="toolbar"></div>
+        </div>
+    </div>
+
+    <div class="row gx-3">
+        <div class="col-auto legend_drag_div">
+            <div id="legend"></div>
+            <div id="dragdrop" class="bg-light">
+            </div>
+        </div>
+        <div class="col-auto">
+            <div id="chartDiv" class="chartDiv"></div>
+            <div id="outlineDiv" style="padding-left: 200px;margin-top:-50px;"></div>
+        </div>
+        <div class="col-auto">
+            <div id="controllerDiv">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="texture_functions.js"></script>
+<script src="texture_constants.js"></script>
+
+<script>
+    const chartName = "mapIcon"
+    const csvName = "random"
+    drawToolbar('toolbar')
+    drawDragDropInfo('dragdrop')
+    drawIconLegend('legend',fruits)
+    drawChartDiv('chartDiv', svgWidth, svgHeight, 'chart')
+    iconTextures(d3.select('#chartA'),fruits)
+    drawIconicControllers()
+    // $('#outlineDiv').append(drawSlider('White Halo Stroke Width','controlHalo', '', '0', '7', '3', '0.1'))
+
+    // let regionXDiv = document.createElement('div')
+    // regionXDiv.style.display = 'none'
+    // $('#sameX').parents()[0].append(regionXDiv)
+    // let regionXInput = document.createElement('input')
+    // regionXInput.type = 'checkbox'
+    // regionXInput.id = 'regionX'
+    // regionXDiv.append(regionXInput)
+    // let regionXLabel = document.createElement('label')
+    // regionXLabel.innerHTML = 'for this region'
+    // regionXDiv.append(regionXLabel)
+    //
+    // let regionYDiv = document.createElement('div')
+    // regionYDiv.style.display = 'none'
+    // $('#sameY').parents()[0].append(regionYDiv)
+    // let regionYInput = document.createElement('input')
+    // regionYInput.type = 'checkbox'
+    // regionYInput.id = 'regionY'
+    // regionYDiv.append(regionYInput)
+    // let regionYLabel = document.createElement('label')
+    // regionYLabel.innerHTML = 'for this region'
+    // regionYDiv.append(regionYLabel)
+
+</script>
+
+
+<script src="texture_ui_elements.js"></script>
+
+<script>
+    let data = getDatasetForMap()
+
+    drawIconMapWithTexture(data, mapWidth, mapHeight, 'chart')
+    //Initialize
+    // icon_setInitialParameters(chartName)
+
+
+</script>
+
+</body>
+</html>
