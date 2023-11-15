@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 
 source("CI-Functions-Bonferroni.R")
-mydata <- read.table("exp2_map.csv", header=T, sep=",")
+mydata <- read.table("exp-data/exp2_map.csv", header=T, sep=",")
 filename_analysis <- "results/"
 
 ##Need to refactor the data a bit

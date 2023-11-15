@@ -3,7 +3,7 @@ library(dplyr)
 library(tidyr)
 
 source("CI-Functions-Bonferroni.R")
-mydata <- read.table("exp2_pie.csv", header=T, sep=",")
+mydata <- read.table("exp2-data/exp2_pie.csv", header=T, sep=",")
 filename_analysis <- "results/"
 
 ##Need to refactor the data a bit
@@ -67,7 +67,7 @@ diff_geo_icon_pie = bootstrapMeanCI_corr(piedf$geometric  - piedf$iconic, 1)
 #diff_uni_icon_pie = bootstrapMeanCI_corr(piedf$unicolor - piedf$iconic, 3)
 
 
-analysispie <- c()
+analysisPie <- c()
 #analysisPie$name <- c("geo-icon", "geo-uni", "uni-icon")
 analysisPie$name <- c("geo-icon")
 analysisPie$pointEstimate <- c(diff_geo_icon_pie[1])
