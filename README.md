@@ -86,4 +86,4 @@ After the script completes, in the `graphics-replicability-stamp/results` folder
   * Figure9c-exp3_beauvis_diff_bar.pdf
   * Figure9d-exp3_beauvis_diff_pie.pdf
 
-We were unable to script the other images in our paper, as they are design samples created by participants or old visualization examples.
+We are unable to script the other images in our paper, as they are design samples created by participants or old visualization examples.
