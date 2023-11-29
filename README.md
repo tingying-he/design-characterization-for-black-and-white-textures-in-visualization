@@ -38,8 +38,15 @@ The R script contained within this repository requires, in addition to a normal 
 * `plyr`
 * `dplyr`
 * `tidyr`
+* `reshape 2`
+* `ggplot2`
+* `propCIs`
 
-To install these required packages, run the following call from a command line: `Rscript -e "install.packages(c('plyr', 'dplyr', 'tidyr'), repos='https://cran.rstudio.com')"`
+To install these required packages, run the following call from a command line: `Rscript -e "install.packages(c('plyr', 'dplyr', 'tidyr', 'reshape 2', 'ggplot2', 'propCIs'), repos='https://cran.rstudio.com')"`
+
+If you encounter problem with Pandoc:
+1. To check whether Pandoc was correctly installed: ``Rscript -e "rmarkdown::pandoc_exec()"``
+2. To install Pandoc from its official website: https://pandoc.org/installing.html . If you use macOS, you can also use Homebrew to install it: ``brew install pandoc``
 
 ### Running the R script
 
