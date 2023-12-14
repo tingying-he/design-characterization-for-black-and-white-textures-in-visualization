@@ -4,6 +4,8 @@ This is a repository for all data and analysis scripts used in the paper "[Desig
 
 Tingying He, Yuanyang Zhong, Petra Isenberg, and Tobias Isenberg. Design Characterization for Black-and-White Textures in Visualization. IEEE Transactions on Visualization and Computer Graphics, 2024. To appear. doi: [10.1109/TVCG.2023.3326941](https://doi.org/10.1109/TVCG.2023.3326941); open-access versions are available at [HAL](https://inria.hal.science/hal-04167900) and at [arXiv](https://arxiv.org/abs/2307.10089).
 
+You can also find the code for texture design interface: https://github.com/tingying-he/design-characterization-for-black-and-white-textures-in-visualization/tree/main/texture-design-interface
+
 ## BibTex
 
 ```
