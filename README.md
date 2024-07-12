@@ -15,6 +15,7 @@ You can also find the code for texture design interface: https://github.com/ting
   journal     = {IEEE Transactions on Visualization and Computer Graphics},
   year        = {2024},
   doi         = {10.1109/TVCG.2023.3326941},
+  shortdoi    = {10/gtkwg3},
   doi_url     = {https://doi.org/10.1109/TVCG.2023.3326941},
   oa_hal_url  = {https://hal.inria.fr/hal-04167900},
   preprint    = {https://doi.org/10.48550/arXiv.2307.10089},
