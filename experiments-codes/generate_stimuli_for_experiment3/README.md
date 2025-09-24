@@ -35,9 +35,11 @@ Our configuration:
 
 * **Formal:** How many trials do you want for each condition? 10
 * **Training:** How many trials do you want for each condition? 30
+
 Reason for 30: when participants answered incorrectly during the trainning, they were given a new chart. Therefore, a larger number of training stimuli was needed.
 
 ### Random data
 The script generates charts using random data. As a result, the charts produced by this script will not be identical to those in the original study. This is intentional and aligns with our study design, which relied on randomized datasets for the stimuli.
+
 If you need the exact stimuli used in the original study, they can be found here:
 https://github.com/tingying-he/design-characterization-for-black-and-white-textures-in-visualization/tree/main/experiments-codes/experiment3/html/stimuli
