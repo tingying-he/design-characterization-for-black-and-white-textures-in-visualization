@@ -1,5 +1,5 @@
-# Experiment Code for *Design Characterization for Black-and-White Textures in Visualization*  
-DOI: [10.1109/TVCG.2023.3326941](https://doi.org/10.1109/TVCG.2023.3326941)
+# Experiment Code
+Experiment Code for *Design Characterization for Black-and-White Textures in Visualization*  (DOI: [10.1109/TVCG.2023.3326941](https://doi.org/10.1109/TVCG.2023.3326941))
 
 This folder contains the code for **Experiment 1** and **Experiment 3** from the paper *Design Characterization for Black-and-White Textures in Visualization*.
 
